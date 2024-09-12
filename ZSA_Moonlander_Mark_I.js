@@ -3,7 +3,7 @@ export function VendorId() { return 0x3297; }
 export function ProductId() { return 0x1969; }
 export function Publisher() { return "Mirey Mackey"; }
 export function Documentation(){ return "troubleshooting/ZSA"; }
-export function Size() { return [16,6]; }
+export function Size() { return [16,5]; }
 export function ControllableParameters() {
     return [
         {"property":"LightingMode", "group":"lighting", "label":"Lighting Mode", "type":"combobox", "values":["Canvas", "Forced"], "default":"Canvas"},
